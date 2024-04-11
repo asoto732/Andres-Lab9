@@ -9,7 +9,6 @@ def encoder(string):
             encoded_string += str(digit)
         return encoded_string
 
-
 def decode(encoded_string):
     string = str(encoded_string)
     decoded_password = ""
@@ -34,3 +33,4 @@ while True:
         print(f"The encoded password is {encoder(password)}, and the original password is {decode(encoder(password))}")
     if option == "3":
         break
+        
