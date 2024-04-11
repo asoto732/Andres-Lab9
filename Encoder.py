@@ -1,3 +1,4 @@
+#Andres Soto Encoder File
 def encoder(string):
     if string.isnumeric():
         encoded_string = " "
@@ -22,3 +23,4 @@ def main():
             break
 if __name__ == "__main__":
     main()
+
