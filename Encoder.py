@@ -17,3 +17,6 @@ while True:
             print("Your password has been encoded and stored!")
         else:
             print("Error! Enter 8 digit password")
+            
+    if option == "3":
+        break
